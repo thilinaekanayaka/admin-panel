@@ -1,6 +1,12 @@
-# Ant Design Pro
+# Simple Admin Panel
 
-This project is initialized with [Ant Design Pro](https://pro.ant.design). Follow is the quick guide for how to use.
+This project is initialized with [Ant Design Pro](https://pro.ant.design) and [Ant Design ](https://ant.design/).
+
+This is a simple admin panel that has admin and user logins.
+The data works in memory and no database was used.
+
+The admin can edit user credentials.
+The User Management section is only accessible to the admin.
 
 ## Environment Prepare
 
@@ -16,12 +22,6 @@ or
 yarn
 ```
 
-## Provided Scripts
-
-Ant Design Pro provides some useful script to help you quick start and build with web project, code style check and test.
-
-Scripts provided in `package.json`. It's safe to modify or add additional script:
-
 ### Start project
 
 ```bash
@@ -34,24 +34,23 @@ npm start
 npm run build
 ```
 
-### Check code style
+### Login Credentials out of the box
 
+Admin user :
 ```bash
-npm run lint
+username: admin / password: ant.design
 ```
-
-You can also use script to auto fix some lint error:
-
+user :
 ```bash
-npm run lint:fix
+username: user / password: ant.design
 ```
-
-### Test code
-
+Other sample users:
 ```bash
-npm test
+username: johnbrown / password: ant.design
 ```
-
-## More
-
-You can view full document on our [official website](https://pro.ant.design). And welcome any feedback in our [github](https://github.com/ant-design/ant-design-pro).
+```bash
+username: jimgreen / password: ant.design
+```
+```bash
+username: joeblack / password: ant.design
+```
