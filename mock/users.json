@@ -1,0 +1,29 @@
+{
+  "users": [
+    {
+      "johnbrown": {
+        "key": "johnbrown",
+        "name": "John Brown",
+        "password": "ant.design"
+      },
+      "jimgreen": {
+        "key": "jimgreen",
+        "name": "Jim Green",
+        "password": "ant.design"
+      },
+      "joeblack": {
+        "key": "joeblack",
+        "name": "Joe Black",
+        "password": "ant.design"
+      }
+    }
+  ],
+  "admins": [
+    {
+      "admin": {
+        "name": "admin",
+        "password": "ant.design"
+      }
+    }
+  ]
+}
