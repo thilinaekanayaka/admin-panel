@@ -8,7 +8,7 @@ The data works in memory and no database was used.
 The admin can edit user credentials.
 The User Management section is only accessible to the admin.
 
-## Environment Prepare
+## Environment Preparation
 
 Install `node_modules`:
 
